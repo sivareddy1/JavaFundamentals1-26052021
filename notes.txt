@@ -1,0 +1,19 @@
+JAVA FUNDAMENTALS:
+Class - (abstract way of representing the objects)Hierarchy header - contains methods to perform certain actions - methods can be accessed using an object of the class.;
+Method - Small piece of code performing certain action - Syntax : <Access modifier> <return type> <Method name>(){} - Ex: public void writeHelloWorldToConsole(){};
+Data Types:
+Whole numbers - integer or int (ex: int age = 30;)
+Very big whole number - Long or long (ex: long starsInGalaxy = 10000000000000000L;)
+Text values - String (ex: String name = "Joe";)
+Floating point decimal values - Float or float (ex: float weight = 76.53;)
+More precise Floating point decimal values - Double or double (ex: double PI = 3.141592653;)
+Final Key word:
+We use 'Final' key word for variables which we do not wan to change further.
+String:
+String is a class in java to declare text variables, with which we can use many other in built methods to work with strings (ex: length(), replace(). touppercase(). tolowercase())
+
+
+JAVA Conventions:
+method names in camel case - First letter in small and every new word with capital letter (ex: firstJavaMethod(){})
+
+----------- Completed Module 1 up to Working with Strings -
