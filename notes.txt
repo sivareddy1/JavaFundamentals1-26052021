@@ -11,9 +11,14 @@ Final Key word:
 We use 'Final' key word for variables which we do not wan to change further.
 String:
 String is a class in java to declare text variables, with which we can use many other in built methods to work with strings (ex: length(), replace(). touppercase(). tolowercase())
-
+Class:
+Class - represent an abstract concept of an object, have properties,
+Objects - are the actual things, have values,
+Setters & Getters
+this - is a special keyword that defines to refer to the values in class
+Access modifier - Public, private
 
 JAVA Conventions:
 method names in camel case - First letter in small and every new word with capital letter (ex: firstJavaMethod(){})
 
------------ Completed Module 1 up to Working with Strings -
+----------- Completed Module 1 up to Private Fields (Need to write assignment after Private Fields (3))  -
