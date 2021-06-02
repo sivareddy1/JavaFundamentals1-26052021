@@ -21,4 +21,4 @@ Access modifier - Public, private
 JAVA Conventions:
 method names in camel case - First letter in small and every new word with capital letter (ex: firstJavaMethod(){})
 
------------ Completed Module 1 up to Private Fields (Need to write assignment after Private Fields (3))  -
+----------- Completed Module 1 up to Static methods (Need to watch Java Fields and Methods again and practice)  -
