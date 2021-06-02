@@ -1,5 +1,6 @@
 package com.serenitydojo;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 public class WhenCreatingObjects {
@@ -9,7 +10,6 @@ public class WhenCreatingObjects {
         String name = "Felix";
         String favoriteFood = "Tuna";
         int age = 4;
-
         /*
         Cat felix = new Cat();
         //felix.name = "Felix";
@@ -33,4 +33,17 @@ public class WhenCreatingObjects {
         //felix.age = 10;
 
     }
+
+    @Test
+
+    public void creating_a_dog(){
+        Dog dog = new Dog ("Fido", "Bone", 5);
+        Assert.assertEquals(dog.getName(), "Fido");
+        Assert.assertEquals(dog.getfavoriteFood(), "Bone");
+        Assert.assertEquals(dog.getAge(), 5);
+
+
+    }
+
+
 }
