@@ -5,6 +5,18 @@ public class Cat {
     private String favoriteFood;
     private int age;
 
+    public static final String CAT_NOISE = "Meow";
+
+    public Cat(String name, int age) {
+        this.name = name;
+        this.age = age;
+        this.favoriteFood = usualFood();
+    }
+
+    public static String usualFood(){
+        return "Tuna";
+    }
+
     public Cat(String name, String favoriteFood, int age) {
         this.name = name;
         this.favoriteFood = favoriteFood;
@@ -30,5 +42,27 @@ public class Cat {
 
     public int getAge() {
         return age;
+    }
+
+    public void makeNoise() {
+        System.out.println(CAT_NOISE);
+    }
+
+    public void feed(String food) {
+        System.out.println(name + " eats some " + food);
+    }
+
+    public void groom() {
+
+        lickPaws();
+        cleanFur();
+    }
+
+    private void cleanFur() {
+        System.out.println(name + " cleans it's Fur ");
+    }
+
+    private void lickPaws() {
+        System.out.println(name + " licks it's Paws ");
     }
 }

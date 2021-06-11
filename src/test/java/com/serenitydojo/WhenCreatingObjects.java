@@ -3,6 +3,8 @@ package com.serenitydojo;
 import org.junit.Assert;
 import org.junit.Test;
 
+import static com.serenitydojo.Cat.usualFood;
+
 public class WhenCreatingObjects {
 
     @Test
@@ -35,7 +37,6 @@ public class WhenCreatingObjects {
     }
 
     @Test
-
     public void creating_a_dog(){
         Dog dog = new Dog ("Fido", "Bone", 5);
         Assert.assertEquals(dog.getName(), "Fido");
@@ -44,6 +45,26 @@ public class WhenCreatingObjects {
 
 
     }
+
+    @Test
+    public void cat_makes_noise(){
+        Cat felix = new Cat ("Felix", "Tuna", 5);
+        Cat felix1 = new Cat("Felix-1",10);
+        Cat spot = new Cat ("Spot", "Salmon", 3);
+
+        System.out.println("Cats usually like " + usualFood());
+        System.out.println(felix1.getName() + " likes " + felix1.getFavoriteFood());
+        System.out.println("Usual food = " + usualFood());
+        felix.makeNoise();
+        felix.feed("Tuna");
+        felix.groom();
+
+        spot.feed("Salmon");
+        spot.makeNoise();
+    }
+
+
+
 
 
 }
